@@ -41,7 +41,7 @@ public class TasksController {
 	@GetMapping("add")
 	public String add(Model model) {
 		model.addAttribute("todo", new Todo());
-		return "addaaaaa";
+		return "add";
 	}
 
 	@PostMapping("save")

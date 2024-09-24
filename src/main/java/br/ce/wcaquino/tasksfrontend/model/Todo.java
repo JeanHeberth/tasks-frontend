@@ -43,5 +43,4 @@ public class Todo {
 		return "Todo [id=" + id + ", task=" + task + ", dueDate=" + dueDate + "]";
 	}
 	
-	/*testea*/
 }
